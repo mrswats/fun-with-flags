@@ -2,12 +2,11 @@ import json
 from http import HTTPStatus
 
 import pytest
-from django.urls import reverse
 
 
 @pytest.fixture
-def healthcheck_url():
-    return reverse("healthcheck")
+def healthcheck_url(url):
+    return url("healthcheck")
 
 
 @pytest.fixture
