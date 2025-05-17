@@ -96,6 +96,8 @@ class Local(BaseConfig):
 
 
 class Test(BaseConfig):
+    SECRET_KEY = "django-insecure-local-secret-key"
+
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.sqlite3",
