@@ -1,0 +1,6 @@
+[run]
+plugins = covdefaults
+omit =
+    **/wsgi.py
+    **/asgi.py
+    manage.py

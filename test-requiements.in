@@ -1,6 +1,7 @@
 -r requirements.in
 
+covdefaults
 pytest
-pytest-django
 pytest-cov
+pytest-django
 pytest-xdist
