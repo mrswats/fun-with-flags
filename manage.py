@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fun_with_flags.settings")
-    os.environ.setdefault('DJANGO_CONFIGURATION', 'Local')
+    os.environ.setdefault("DJANGO_CONFIGURATION", "Local")
 
     try:
         from configurations.management import execute_from_command_line
